@@ -1,0 +1,136 @@
+/*Corpo do Site*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+img{
+    width: 400px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#newsletter-list {
+    list-style: none;
+    padding: 0;
+}
+
+#newsletter-list li {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background 0.2s ease;
+}
+
+#newsletter-list li:hover {
+    background: #f0f0f0;
+}
+
+#newsletter-content {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+button {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background: #0077cc;
+    color: white;
+}
+
+button:hover {
+    background: #0055aa;
+}
+
+/*Conteúdo do Markdown*/
+
+#newsletter-content h1 {
+  color: #0055aa;
+  font-size: 2rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+#newsletter-content h2 {
+  color: #0077cc;
+  font-size: 1.5rem;
+}
+
+#newsletter-content h3 {
+    color: #1b1b1b;
+    font-size: 1.2rem;
+}
+
+#newsletter-content p {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#newsletter-content ul {
+  padding-left: 1.5rem;
+  color: #444;
+  text-align: justify;
+
+}
+
+#newsletter-content code {
+  background-color: #f0f0f0;
+  color: #c7254e;
+  font-family: monospace;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+#newsletter-content a {
+  color: #0088cc;
+  text-decoration: underline;
+}
+
+/*Responsividade do Site*/
+
+@media (max-width: 900px){
+    h1{
+        font-size: 1.2rem;
+    }
+
+    button {
+        margin: 1.4rem 0rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 6px;
+        background: #0077cc;
+        color: white;
+    }
+    
+    button:hover {
+        background: #0055aa;
+    }
+
+    img{
+        width: 200px;
+    }
+}
