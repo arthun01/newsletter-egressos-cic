@@ -6,6 +6,10 @@ const newsletters = [
     {
       title: "Edição 02 - Novidades de Abril",
       file: "./edicoes/01_04.md"
+    },
+    {
+      title: "Edição 03 - Testando mais um",
+      file: "./edicoes/02_04.md"
     }
   ];
   
