@@ -1,13 +1,49 @@
 /*Corpo do Site*/
 
+:root{
+    --main-h1h2: #3e5aab;
+    --main-h3: #4363bb;    
+    --main-title: #f3db1f;
+    --main-text: #333;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 2rem;
     background-color: #f9f9f9;
-    color: #333;
+    color: var(--main-text);
 }
 
+ul{
+    color: var(--main-title);
+    font-weight: bold;
+}
+
+h1{
+    color: var(--main-h1h2);
+}
+
+a{
+    transition: 0.1s ease;
+}
+
+a:hover{
+    transform: scale(1.1) rotate(-2deg);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.logo-colcic {
+    max-width: 200px;
+    height: auto;
+}
+  
 img{
     width: 400px;
 }
@@ -39,6 +75,7 @@ h1 {
 
 #newsletter-list li:hover {
     background: #f0f0f0;
+    color: var(--main-h3);
 }
 
 #newsletter-content {
@@ -66,31 +103,32 @@ button:hover {
 /*Conteúdo do Markdown*/
 
 #newsletter-content h1 {
-  color: #0055aa;
+  color: var(--main-h1h2);
   font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
   border-bottom: 2px solid #ccc;
   padding-bottom: 5px;
 }
 
 #newsletter-content h2 {
-  color: #0077cc;
+  color: var(--main-h1h2);
   font-size: 1.5rem;
 }
 
 #newsletter-content h3 {
-    color: #1b1b1b;
+    color: var(--main-h3);
     font-size: 1.2rem;
 }
 
 #newsletter-content p {
-  color: #000000;
+  color: var(--main-text);
   font-size: 1rem;
   line-height: 1.6;
 }
 
 #newsletter-content ul {
   padding-left: 1.5rem;
-  color: #444;
+  color: var(--main-text);
   text-align: justify;
 
 }
@@ -132,5 +170,30 @@ button:hover {
 
     img{
         width: 200px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+
+    .logo-colcic {
+        max-width: 140px;
+        height: auto;
+    }
+
+
+    #newsletter-content p {
+        color: var(--main-text);
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    #newsletter-content ul {
+        padding-left: .6rem;
+        color: var(--main-text);
+        text-align: justify;  
     }
 }
