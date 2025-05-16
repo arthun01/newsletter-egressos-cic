@@ -1,0 +1,118 @@
+
+@import url(./variaveis.css);
+@import url(./markdown_style.css);
+@import url(./card.css);
+
+.footer{
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 400px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: var(--main-text);
+}
+
+ul{
+    color: var(--main-title);
+    font-weight: bold;
+}
+
+h1{
+    color: var(--main-h1h2);
+}
+
+a{
+    transition: 0.1s ease;
+}
+
+a:hover{
+    transform: scale(1.1) rotate(-2deg);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+@media (max-width: 768px) {
+    .container{
+        justify-content: center;
+    }
+}
+
+.logo-colcic {
+    max-width: 200px;
+    height: auto;
+}
+  
+img{
+    width: 400px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#newsletter-list {
+    list-style: none;
+    padding: 0;
+}
+
+#newsletter-list li{
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: .2s ease;
+    color: #FFF;
+}
+
+#newsletter-list li:hover{
+  color: var(--main-title);
+  transform: scale(1.03);
+}
+
+#newsletter-content {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+button {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background: #0077cc;
+    color: white;
+}
+
+button:hover {
+    background: #0055aa;
+}

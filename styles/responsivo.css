@@ -1,0 +1,50 @@
+/*Responsividade do Site*/
+
+@media (max-width: 768px){
+    h1{
+        font-size: 1.2rem;
+    }
+
+    button {
+        margin: 1.4rem 0rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 6px;
+        background: #0077cc;
+        color: white;
+    }
+    
+    button:hover {
+        background: #0055aa;
+    }
+
+    img{
+        width: 200px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-colcic {
+        max-width: 140px;
+        height: auto;
+    }
+
+
+    #newsletter-content p {
+        color: var(--main-text);
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    #newsletter-content ul {
+        padding-left: .6rem;
+        color: var(--main-text);
+        text-align: justify;  
+    }
+}

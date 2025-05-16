@@ -1,0 +1,45 @@
+/*Conteúdo do Markdown*/
+
+#newsletter-content h1 {
+    color: var(--main-h1h2);
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  #newsletter-content h2 {
+    color: var(--main-h1h2);
+    font-size: 1.5rem;
+  }
+  
+  #newsletter-content h3 {
+      color: var(--main-h3);
+      font-size: 1.2rem;
+  }
+  
+  #newsletter-content p {
+    color: var(--main-text);
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  #newsletter-content ul {
+    padding-left: 1.5rem;
+    color: var(--main-text);
+    text-align: justify;
+  
+  }
+  
+  #newsletter-content code {
+    background-color: #f0f0f0;
+    color: #c7254e;
+    font-family: monospace;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  #newsletter-content a {
+    color: #0088cc;
+    text-decoration: underline;
+  }
