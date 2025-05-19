@@ -2,26 +2,26 @@ const newsletters = [
   {
     title: "Edição 01 - Boas-vindas",
     date: "06/04/2025",
-    file: "/edicoes/00_04.md",
-    image: "/imagens/backs/bg1.png"
+    file: "edicoes/00_04.md",
+    image: "imagens/backs/bg1.png"
   },
   {
     title: "Edição 02 - Novidades de Abril",
     date: "13/04/2025",
-    file: "/edicoes/01_04.md",
-    image: "/imagens/backs/bg2.png"
+    file: "edicoes/01_04.md",
+    image: "imagens/backs/bg2.png"
   },
   {
     title: "Edição 03 - Testando mais um",
     date: "20/04/2025",
-    file: "/edicoes/02_04.md",
-    image: "/imagens/bg3.jpg"
+    file: "edicoes/02_04.md",
+    image: "imagens/bg3.jpg"
   },
   {
     title: "Edição 04 - Testando mais um",
     date: "23/04/2025",
-    file: "/edicoes/02_04.md",
-    image: "/imagens/bg3.jpg"
+    file: "edicoes/02_04.md",
+    image: "imagens/bg3.jpg"
   }
 ];
 
