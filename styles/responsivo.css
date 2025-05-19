@@ -1,6 +1,10 @@
 /*Responsividade do Site*/
 
 @media (max-width: 768px){
+    .card{
+        height: 200px;
+    }
+
     h1{
         font-size: 1.2rem;
     }
@@ -16,12 +20,16 @@
         color: white;
     }
     
+    img{
+        width: 200px;
+    }
+
     button:hover {
         background: #0055aa;
     }
 
-    img{
-        width: 200px;
+    #newsletter-content img{
+        width: 100%;
     }
 
     .container{
