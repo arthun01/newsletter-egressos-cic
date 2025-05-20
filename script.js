@@ -1,27 +1,15 @@
 const newsletters = [
   {
     title: "Edição 01 - Boas-vindas",
-    date: "06/04/2025",
-    file: "edicoes/00_04.md",
-    image: "imagens/backs/bg1.png"
+    date: "16/05/2025",
+    file: "edicoes/16_05.md",
+    image: "imagens/backs/16_05.jpg"
   },
   {
-    title: "Edição 02 - Novidades de Abril",
-    date: "13/04/2025",
-    file: "edicoes/01_04.md",
-    image: "imagens/backs/bg2.png"
-  },
-  {
-    title: "Edição 03 - Testando mais um",
-    date: "20/04/2025",
-    file: "edicoes/02_04.md",
-    image: "imagens/bg3.jpg"
-  },
-  {
-    title: "Edição 04 - Testando mais um",
-    date: "23/04/2025",
-    file: "edicoes/02_04.md",
-    image: "imagens/bg3.jpg"
+    title: "Edição 02 - Segunda",
+    date: "19/05/2025",
+    file: "edicoes/19_05.md",
+    image: "imagens/backs/19_05.jpg"
   }
 ];
 
@@ -48,7 +36,6 @@ function mostrarEdicao(newsletter) {
     });
 }
 
-
 newsletters.forEach((newsletter) => {
   const li = document.createElement("li");
   li.className = "card";
@@ -64,3 +51,12 @@ newsletters.forEach((newsletter) => {
   li.onclick = () => mostrarEdicao(newsletter);
   listEl.appendChild(li);
 });
+
+//mostrar os participantes
+function mostrarParticipantes() {
+  document.getElementById("modal-participantes").style.display = "flex";
+}
+
+function fecharParticipantes() {
+  document.getElementById("modal-participantes").style.display = "none";
+}

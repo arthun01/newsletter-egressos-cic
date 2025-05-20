@@ -55,4 +55,8 @@
         color: var(--main-text);
         text-align: justify;  
     }
+
+    .modal-content{
+        width: 60%;
+    }
 }
