@@ -1,15 +1,21 @@
 const newsletters = [
   {
-    title: "Edição 01 - Boas-vindas",
-    date: "16/05/2025",
-    file: "edicoes/16_05.md",
-    image: "imagens/backs/16_05.jpg"
+    title: "Edição 03 - Quarta",
+    date: "21/05/2025",
+    file: "edicoes/21_05.md",
+    image: "imagens/backs/21_05.jpg"
   },
   {
     title: "Edição 02 - Segunda",
     date: "19/05/2025",
     file: "edicoes/19_05.md",
     image: "imagens/backs/19_05.jpg"
+  },
+  {
+    title: "Edição 01 - Boas-vindas",
+    date: "16/05/2025",
+    file: "edicoes/16_05.md",
+    image: "imagens/backs/16_05.jpg"
   }
 ];
 
