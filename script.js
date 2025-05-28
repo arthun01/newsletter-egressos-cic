@@ -1,29 +1,23 @@
-const newsletters = [
-  {
-    title: "Edição 04 - Segunda",
-    date: "26/05/2025",
-    file: "edicoes/26_05.md",
-    image: "imagens/backs/26_05.jpg"
-  },
-  {
-    title: "Edição 03 - Quarta",
-    date: "21/05/2025",
-    file: "edicoes/21_05.md",
-    image: "imagens/backs/21_05.jpg"
-  },
-  {
-    title: "Edição 02 - Segunda",
-    date: "19/05/2025",
-    file: "edicoes/19_05.md",
-    image: "imagens/backs/19_05.jpg"
-  },
-  {
-    title: "Edição 01 - Boas-vindas",
-    date: "16/05/2025",
-    file: "edicoes/16_05.md",
-    image: "imagens/backs/16_05.jpg"
-  }
-];
+fetch("edicoes.json")
+  .then((res) => res.json())
+  .then((newsletters) => {
+    newsletters.forEach((newsletter) => {
+      const li = document.createElement("li");
+      li.className = "card";
+      li.style.backgroundImage = `url(${newsletter.image})`;
+
+      li.innerHTML = `
+        <div class="card-content">
+          <h3>${newsletter.title}</h3>
+          <p>${newsletter.date}</p>
+        </div>
+      `;
+
+      li.onclick = () => mostrarEdicao(newsletter);
+      listEl.appendChild(li);
+    });
+  });
+
 
 const listEl = document.getElementById("newsletter-list");
 const viewEl = document.getElementById("newsletter-view");
