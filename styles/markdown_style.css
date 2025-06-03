@@ -1,11 +1,15 @@
 /*Conteúdo do Markdown*/
 
-#newsletter-content h1 {
+  #newsletter-content h1 {
     color: var(--main-h1h2);
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     border-bottom: 2px solid #ccc;
     padding-bottom: 5px;
+  }
+
+  #newsletter-content li{
+    color: #5c7ada;
   }
   
   #newsletter-content h2 {
