@@ -1,7 +1,25 @@
 [
-    {
+  {
+    "title":"Edição 13 - Quarta",
+    "date": "02/07/2025",
+    "file": "edicoes/02_07.md",
+    "image": "imagens/backs/02_07.jpg" 
+  },
+  {
+    "title":"Edição 12 - Segunda",
+    "date": "23/06/2025",
+    "file": "edicoes/23_06.md",
+    "image": "imagens/backs/23_06.jpg"  
+  },
+  {
+    "title":"Edição 11 - Quarta",
+    "date": "18/06/2025",
+    "file": "edicoes/18_06.md",
+    "image": "imagens/backs/18_06.jpg"    
+  },
+  {
     "title":"Edição 10 - Segunda",
-    "date": "16/05/2025",
+    "date": "16/06/2025",
     "file": "edicoes/16_06.md",
     "image": "imagens/backs/16_06.jpg"
   },
